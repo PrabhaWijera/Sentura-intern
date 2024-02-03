@@ -1,7 +1,7 @@
  import React, { useState, useEffect } from 'react';
 import { Weavy, WyChat } from "@weavy/uikit-web";
 import '@weavy/uikit-web';
-import img from "../assets/images.png";
+import img from "../assets/ww.jpg";
 import './UserManagement.css'; // Import the CSS file with the provided styles
 
 interface UserManagementProps {}

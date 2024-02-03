@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63956f8c-4ecb-4d61-b1bb-3d51f37ef61b" name="Changes" comment="add final">
-      <change afterPath="$PROJECT_DIR$/vite-project/my-project/src/Components/UserManagement.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/my-project/src/assets/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-project/my-project/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/my-project/src/App.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="63956f8c-4ecb-4d61-b1bb-3d51f37ef61b" name="Changes" comment="add final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +55,7 @@
       <updated>1706932871900</updated>
       <workItem from="1706932880308" duration="1057000" />
       <workItem from="1706935967848" duration="9000" />
-      <workItem from="1706936087379" duration="358000" />
+      <workItem from="1706936087379" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="config">
       <option name="closed" value="true" />
@@ -109,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706936446756</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add final">
+      <option name="closed" value="true" />
+      <created>1706936562895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706936562895</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
