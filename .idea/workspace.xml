@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63956f8c-4ecb-4d61-b1bb-3d51f37ef61b" name="Changes" comment="add styles">
-      <change afterPath="$PROJECT_DIR$/.idea/sentura.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/.eslintrc.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/components/UserManagement .jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/components/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/my-project/src/Components/Usermanage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/my-project/src/Components/Usermanage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,31 +18,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2bqBjam5Om8UAtLU0VnFVCEg3FN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/MobileDevelopment",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MobileDevelopment&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706932871900</updated>
       <workItem from="1706932880308" duration="1057000" />
+      <workItem from="1706935967848" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="config">
       <option name="closed" value="true" />

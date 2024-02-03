@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Weavy, WyChat } from "@weavy/uikit-web";
 import '@weavy/uikit-web';
+import img from "../assets/images.png";
+import './UserManagement.css'; // Import the CSS file with the provided styles
 
 interface UserManagementProps {}
-
-const weavy = new Weavy();
-weavy.url = "https://1abc03fba2cc4a0780df8dbc12d76573.weavy.io";
-weavy.tokenFactory = async (refresh) => "wys_4wxGZPMQFCrVlfnvYSK87lDTAmjWmn1nfNlj";
-
 
 const UserManagement: React.FC<UserManagementProps> = () => {
   const [weavy, setWeavy] = useState<Weavy | null>(null);
@@ -25,7 +22,6 @@ const UserManagement: React.FC<UserManagementProps> = () => {
     initializeWeavy();
   }, []);
   
-
   const handleCreateUser = async () => {
     try {
       const response = await weavy.users.create({
@@ -39,7 +35,6 @@ const UserManagement: React.FC<UserManagementProps> = () => {
     }
   };
   
-
   const handleListUsers = async () => {
     try {
       const userList = await weavy.users.list();
@@ -77,6 +72,7 @@ const UserManagement: React.FC<UserManagementProps> = () => {
       console.error('Error updating user:', error);
     }
   };
+  
   const handleDeleteUser = async () => {
     try {
       const userId = 'user_id'; // Provide the user ID for which you want to delete
@@ -88,17 +84,14 @@ const UserManagement: React.FC<UserManagementProps> = () => {
       console.error('Error deleting user:', error);
     }
   };
-  
- 
- 
 
   return (
-<div className="container mx-auto mt-10 flex justify-center items-center">
-      <div className="grid grid-cols-2 gap-4">
+    <div className="container">
+      <div className="grid">
         <div>
-          <img src="your-image-url" alt="Your Image" className="max-w-full h-auto" />
+          <img src={img} alt="Your Image" className="image" />
         </div>
-        <div className="flex flex-col items-center">
+        <div className="buttons-container">
           <button className="user-management-button" onClick={handleCreateUser}>
             Create User
           </button>
