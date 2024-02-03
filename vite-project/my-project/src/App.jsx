@@ -3,8 +3,8 @@ import UserManagement from './Components/Usermanage';
 
 const App = () => {
   return (
-    <div className="flex">
-      <h1>Weavy cloud  User Management</h1>
+    <div>
+      <h1 className="flex justify-center m-4">Weavy cloud  User Management</h1>
       <UserManagement />
     </div>
   );
